@@ -12,7 +12,7 @@ env:
   CONTAINER_NAME: "test-container"
 
 jobs:
-  image_build_and_push:
+  image-build-and-push:
     runs-on: ubuntu-latest
 
     steps:
