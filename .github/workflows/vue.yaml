@@ -9,7 +9,7 @@ on:
 env:
   REGISTRY: "cr.selcloud.ru/test"
   IMAGE_NAME: "serverx"
-  CONTAINER_NAME: "test_container"
+  CONTAINER_NAME: "test-container"
 
 jobs:
   image_build_and_push:
