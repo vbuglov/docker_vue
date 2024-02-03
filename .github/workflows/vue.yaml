@@ -33,7 +33,7 @@ jobs:
 
   deploy-image:
       runs-on: ubuntu-latest
-      needs: image-build-and-push
+      needs: image_build_and_push
 
       steps:
         - name: Deploy to Selectel cloud via SSH action
